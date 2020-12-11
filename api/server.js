@@ -11,7 +11,7 @@ const server = express();
 
 // middleware
 server.use(express.json());
-server.use(helmet)
+server.use(helmet())
 
 // use routers with endpoints
 server.use('/api/projects', projectRouter)
