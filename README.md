@@ -45,10 +45,13 @@ Commit your code regularly and meaningfully.
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Explain the difference between Relational Databases and SQL.
+Relational Databases are pre tables of data that can call other data in, SQL is used to query such data and create new tables from the databases.
 2. Why do tables need a Primary Key?
+Tables need a primary key to identify the entries, and normalize the data
 3. What is the name given to a table column that references the Primary Key on another table?
+Foreign key
 4. What do we need in order to have a _many to many_ relationship between two tables?
-
+We need a juncition table to be made, where we connect the other two tables with foreign keys
 ## Instructions
 
 ### Task 1: Project Set Up
